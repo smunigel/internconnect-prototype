@@ -69,25 +69,6 @@ function matchOpportunities(student, opportunities) {
   );
 }
 
-// Navbar Component
-function Navbar({ setTab }) {
-  return (
-    <nav className="bg-blue-600 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">InternConnect</h1>
-        <div>
-          // <button onClick={() => setTab("dashboard")} className="mr-4 hover:underline">Dashboard</button>
-          // <button onClick={() => setTab("profile")} className="mr-4 hover:underline">Profile</button>
-          // <button onClick={() => setTab("projects")} className="mr-4 hover:underline">Projects</button>
-          // <button onClick={() => setTab("opportunities")} className="mr-4 hover:underline">Opportunities</button>
-          // <button onClick={() => setTab("recruiter")} className="mr-4 hover:underline">Recruiter</button>
-          <button onClick={() => setTab("login")} className="hover:underline">Logout</button>
-        </div>
-      </div>
-    </nav>
-  );
-}
-
 // Portfolio Card Component
 function PortfolioCard({ student }) {
   return (
